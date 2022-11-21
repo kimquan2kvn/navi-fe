@@ -1,3 +1,4 @@
+import Typography from "antd/lib/typography";
 import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { Link, useHistory } from "react-router-dom";
@@ -18,19 +19,25 @@ const Login = () => {
     return (
         <div className="auth_page">
             <div className="auth_box">
-                <h3 className="text-uppercase text-center mb-4">Login</h3>
+                <Typography.Title
+                    level={3}
+                    className="text-uppercase text-center mb-4 fw-bold"
+                >
+                    Login
+                </Typography.Title>
                 <SocialLogin />
-                
+
                 {sms ? <LoginSMS /> : <LoginPass />}
                 <small
                     className="row my-2 text-primary"
                     style={{ cursor: "pointer" }}
                 >
-                    <span className="col-6">
+                    <span className="col-6" style={{ fontSize: 13 }}>
                         <Link to="/forgot_password">Forgot password?</Link>
                     </span>
                     <span
-                        className="col-6 text-end"
+                        style={{ fontSize: 13 }}
+                        className="col-6 text-end "
                         onClick={() => setSms(!sms)}
                     >
                         {sms ? "Sign in with password" : "Sign in with SMS"}

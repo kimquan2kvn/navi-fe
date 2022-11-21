@@ -26,7 +26,11 @@ const Menu = () => {
         <ul className="navbar-nav ms-auto">
             {navLinks.map((link, index) => (
                 <li key={index} className={`nav-item ${isActive(link.path)}`}>
-                    <Link className="nav-link" to={link.path}>
+                    <Link
+                        style={{ fontSize: 15 }}
+                        className="nav-link"
+                        to={link.path}
+                    >
                         {link.label}
                     </Link>
                 </li>

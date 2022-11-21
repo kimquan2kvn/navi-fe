@@ -12,7 +12,7 @@ const SocialLogin = () => {
     };
 
     return (
-        <div className="my-2">
+        <div className="my-2" >
             <GoogleLogin
                 client_id="107172458113-leujd83hc3emavmoklkhl2aosona1inu.apps.googleusercontent.com"
                 cookiepolicy="single_host_origin"
