@@ -1,6 +1,6 @@
 # navi-fe
 
 ## Hướng dẫn run code: 
-- cd vào thư mục souce code
-- npm install
-- npm start
+### 1. di chuyển vào thư mục souce code đã clone về
+### 2. npm install
+### 3. npm start
