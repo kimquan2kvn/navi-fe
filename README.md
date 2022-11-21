@@ -13,3 +13,6 @@
 
 - Validate và thông báo lỗi
 ![2022-11-21_172254](https://user-images.githubusercontent.com/54978467/203031429-002ad9eb-2cde-4058-a45a-6729133c8180.png)
+
+- Trạng thái loading
+![image](https://user-images.githubusercontent.com/54978467/203031851-be6e44df-a9d6-44f0-a20f-841db4078046.png)
